@@ -1,0 +1,160 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background: #674baf url(/assets/images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 2.5em 2.3em;
+    text-align: center;
+    line-height: 1.6;
+}
+
+@media (min-width: 991px) {
+    body {
+        background-image: url(/assets/images/bg-desktop.svg);
+        background-position: center;
+        background-size: cover;
+        text-align: left;
+        padding: 3em 5em;
+    }
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+button,
+.attribution {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin-top: 2.4em;
+    font-weight: 600;
+}
+
+@media (min-width: 991px) {
+    h1 {
+        margin-top: 1.4em;
+        font-size: 2.2rem;
+    }
+}
+
+button {
+    border: none;
+    color: #674baf;
+    background-color: #fff;
+    font-size: 0.875rem;
+    padding: 0.75em 5em;
+    border-radius: 100px;
+    margin-top: 0.5em;
+    box-shadow: 0px 5px 5px #0000002c;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus,
+button:active {
+    color: #fff;
+    background-color: #e882e8;
+}
+
+@media (min-width: 991px) {
+    button {
+        font-size: 1rem;
+        padding: 0.75em 3.5em;
+        border-radius: 100px;
+    }
+}
+
+/* Header */
+.logo {
+    width: 40%;
+}
+
+@media (min-width: 991px) {
+    .logo {
+        width: 18%;
+    }
+}
+
+/* Main */
+main {
+    padding: 3.55em 0;
+}
+
+@media (min-width: 991px) {
+    main {
+        padding: 2.8em 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .illustration {
+        width: 60%;
+    }
+    .main-text {
+        width: 36%;
+    }
+}
+/* Footer */
+.social a {
+    text-decoration: none;
+}
+
+.social a i {
+    color: #fff;
+    border: solid 0.1em #fff;
+    border-radius: 50px;
+    padding: 0.5em 0.55em 0.45em;
+    transition: 500ms;
+}
+
+@media (min-width: 991px) {
+    .social {
+        text-align: right;
+    }
+
+    .social a i {
+        border-radius: 50px;
+        padding: 0.6em 0.65em 0.55em;
+    }
+}
+
+.social a i:hover,
+.social a i:focus,
+.social a i:active {
+    color: #e882e8;
+    border: solid 0.1em #e882e8;
+}
+
+.twt {
+    margin: 0 8px;
+}
+
+.attribution {
+    margin-top: 2.5em;
+    font-size: 12px;
+    text-align: center;
+}
+.attribution a {
+    color: #e882e8;
+}

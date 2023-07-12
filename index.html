@@ -4,63 +4,85 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- displays site properly based on user's device -->
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+            rel="stylesheet"
+        />
+        <!-- fonts -->
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
             href="assets/images/favicon-32x32.png"
         />
+        <link rel="stylesheet" href="assets/css/styles.css" />
         <link href="assets/font-awesome/css/all.css" rel="stylesheet" />
         <title>Huddle landing page with single introductory section</title>
-
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
     </head>
     <body>
+        <!-- Header -->
         <header>
-            <img
-                src="assets/images/logo.svg"
-                class="logo"
-                style="background-color: black"
-                alt="logo"
-            />
+            <!-- Logo -->
+            <img src="assets/images/logo.svg" class="logo" alt="logo" />
         </header>
 
+        <!-- Main -->
         <main>
+            <!-- Huddle Illustration -->
             <img
                 src="assets/images/illustration-mockups.svg"
                 alt="illustration-mockups"
+                class="illustration"
             />
-            <h1>Build The Community Your Fans Will Love</h1>
 
-            <p>
-                Huddle re-imagines the way we build communities. You have a
-                voice, but so does your audience. Create connections with your
-                users as you engage in genuine discussion.
-            </p>
+            <!-- Huddle heading and text -->
+            <div class="main-text">
+                <h1>Build The Community Your Fans Will Love</h1>
 
-            <button>Register</button>
+                <p>
+                    Huddle re-imagines the way we build communities. You have a
+                    voice, but so does your audience. Create connections with
+                    your users as you engage in genuine discussion.
+                </p>
 
-            <div class="social">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-twitter"></i>
-                </a>
-
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-instagram"></i>
-                </a>
+                <button>Register</button>
             </div>
         </main>
 
+        <!-- Footer -->
         <footer>
+            <!-- Social Links -->
+            <div class="social">
+                <a
+                    class="fb"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a
+                    class="twt"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a
+                    class="ig"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <!-- Author Details -->
             <p class="attribution">
                 Challenge by
                 <a
